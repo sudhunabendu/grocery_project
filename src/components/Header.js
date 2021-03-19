@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'font-awesome/css/font-awesome.min.css';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -12,63 +13,63 @@ class Header extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                   <i className="fa fa-bars"></i>
                 </button>
-                <a className="navbar-brand" href="index.html"><img src="images/logo.png" className="logo" alt="" /></a>
+                <Link className="navbar-brand" to="index.html"><img src="images/logo.png" className="logo" alt="" /></Link>
               </div>
 
               <div className="collapse navbar-collapse" id="navbar-menu">
                 <ul className="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                  <li className="nav-item active"><a className="nav-link" href="index.html">Home</a></li>
-                  <li className="nav-item"><a className="nav-link" href="about.html">About Us</a></li>
+                  <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/about">About Us</Link></li>
                   <li className="dropdown">
-                    <a href="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                    <Link to="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</Link>
                     <ul className="dropdown-menu">
-                      <li><a href="shop.html">Sidebar Shop</a></li>
-                      <li><a href="shop-detail.html">Shop Detail</a></li>
-                      <li><a href="cart.html">Cart</a></li>
-                      <li><a href="checkout.html">Checkout</a></li>
-                      <li><a href="my-account.html">My Account</a></li>
-                      <li><a href="wishlist.html">Wishlist</a></li>
+                      <li><Link to="/shop">Sidebar Shop</Link></li>
+                      {/* <li><Link to="#">Shop Detail</Link></li> */}
+                      <li><Link to="/cart">Cart</Link></li>
+                      <li><Link to="/checkout">Checkout</Link></li>
+                      <li><Link to="/myaccount">My Account</Link></li>
+                      <li><Link to="/wishlist">Wishlist</Link></li>
                     </ul>
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="gallery.html">Gallery</a></li>
-                  <li className="nav-item"><a className="nav-link" href="contact-us.html">Contact Us</a></li>
+                  <li className="nav-item"><Link className="nav-link" to="/gallery">Gallery</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
                 </ul>
               </div>
 
               <div className="attr-nav">
                 <ul>
-                  <li className="search"><a href="#"><i className="fa fa-search"></i></a></li>
+                  <li className="search"><Link to="#"><i className="fa fa-search"></i></Link></li>
                   <li className="side-menu">
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa fa-shopping-bag"></i>
                       <span className="badge">3</span>
                       <p>My Cart</p>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="side">
-              <a href="#" className="close-side"><i className="fa fa-times"></i></a>
+              <Link to="#" className="close-side"><i className="fa fa-times"></i></Link>
               <li className="cart-box">
                 <ul className="cart-list">
                   <li>
-                    <a href="#" className="photo"><img src="images/img-pro-01.jpg" className="cart-thumb" alt="" /></a>
-                    <h6><a href="#">Delica omtantur </a></h6>
+                    <Link to="#" className="photo"><img src="images/img-pro-01.jpg" className="cart-thumb" alt="" /></Link>
+                    <h6><Link to="#">Delica omtantur </Link></h6>
                     <p>1x - <span className="price">$80.00</span></p>
                   </li>
                   <li>
-                    <a href="#" className="photo"><img src="images/img-pro-02.jpg" className="cart-thumb" alt="" /></a>
-                    <h6><a href="#">Omnes ocurreret</a></h6>
+                    <Link to="#" className="photo"><img src="images/img-pro-02.jpg" className="cart-thumb" alt="" /></Link>
+                    <h6><Link to="#">Omnes ocurreret</Link></h6>
                     <p>1x - <span className="price">$60.00</span></p>
                   </li>
                   <li>
-                    <a href="#" className="photo"><img src="images/img-pro-03.jpg" className="cart-thumb" alt="" /></a>
-                    <h6><a href="#">Agam facilisis</a></h6>
+                    <Link to="#" className="photo"><img src="images/img-pro-03.jpg" className="cart-thumb" alt="" /></Link>
+                    <h6><Link to="#">Agam facilisis</Link></h6>
                     <p>1x - <span className="price">$40.00</span></p>
                   </li>
                   <li className="total">
-                    <a href="#" className="btn btn-default hvr-hover btn-cart">VIEW CART</a>
+                    <Link to="#" className="btn btn-default hvr-hover btn-cart">VIEW CART</Link>
                     <span className="float-right"><strong>Total</strong>: $180.00</span>
                   </li>
                 </ul>
