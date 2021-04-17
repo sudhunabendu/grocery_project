@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaRegHeart, FaRegEye, FaRegCommentDots } from "react-icons/fa";
 
 class Blogs extends Component {
   render() {
@@ -26,9 +27,9 @@ class Blogs extends Component {
                       <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                     </div>
                     <ul className="option-blog">
-                      <li><a href="#"><i className="far fa-heart"></i></a></li>
-                      <li><a href="#"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#"><i className="far fa-comments"></i></a></li>
+                      <li><a href="#"><FaRegHeart /></a></li>
+                      <li><a href="#">< FaRegEye /></a></li>
+                      <li><a href="#"><FaRegCommentDots /></a></li>
                     </ul>
                   </div>
                 </div>
@@ -44,9 +45,9 @@ class Blogs extends Component {
                       <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                     </div>
                     <ul className="option-blog">
-                      <li><a href="#"><i className="far fa-heart"></i></a></li>
-                      <li><a href="#"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#"><i className="far fa-comments"></i></a></li>
+                      <li><a href="#"><FaRegHeart /></a></li>
+                      <li><a href="#">< FaRegEye /></a></li>
+                      <li><a href="#"><FaRegCommentDots /></a></li>
                     </ul>
                   </div>
                 </div>
@@ -62,9 +63,9 @@ class Blogs extends Component {
                       <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                     </div>
                     <ul className="option-blog">
-                      <li><a href="#"><i className="far fa-heart"></i></a></li>
-                      <li><a href="#"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#"><i className="far fa-comments"></i></a></li>
+                      <li><a href="#"><FaRegHeart /></a></li>
+                      <li><a href="#">< FaRegEye /></a></li>
+                      <li><a href="#"><FaRegCommentDots /></a></li>
                     </ul>
                   </div>
                 </div>

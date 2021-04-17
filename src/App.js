@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import TopHeader from './components/TopHeader';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ import Myaccount from './pages/Myaccount';
 import Shop from './pages/Shop';
 import Cart from './pages/Cart';
 import CheckOut from './pages/CheckOut';
-
+import ShopDetails from './pages/ShopDetails';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           <Route path="/shop" component={Shop} />
           <Route path="/cart" component={Cart} />
           <Route path="/checkout" component={CheckOut} />
-
+          <Route path="shopdetails" component={ShopDetails} />
 
         </Switch>
         <Footer />

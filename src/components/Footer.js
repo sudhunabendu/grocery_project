@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebookSquare } from "react-icons/fa";
+
 
 class Footer extends Component {
   render() {
@@ -32,7 +34,7 @@ class Footer extends Component {
                   <h3>Social Media</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><FaFacebookSquare /></a></li>
                     <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i className="fab fa-google-plus" aria-hidden="true"></i></a></li>
@@ -70,13 +72,13 @@ class Footer extends Component {
                   <h4>Contact Us</h4>
                   <ul>
                     <li>
-                      <p><i className="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br />Preston Street Wichita,<br /> KS 67213 </p>
+                      <p><FaMapMarkerAlt />Address: Michael I. Days 3756 <br />Preston Street Wichita,<br /> KS 67213 </p>
                     </li>
                     <li>
-                      <p><i className="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                      <p><FaPhone />Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
                     </li>
                     <li>
-                      <p><i className="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
+                      <p><FaEnvelope />Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
                     </li>
                   </ul>
                 </div>

@@ -24,7 +24,7 @@ class Header extends Component {
                     <Link to="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</Link>
                     <ul className="dropdown-menu">
                       <li><Link to="/shop">Sidebar Shop</Link></li>
-                      {/* <li><Link to="#">Shop Detail</Link></li> */}
+                      <li><Link to="/shopdetails">Shop Detail</Link></li>
                       <li><Link to="/cart">Cart</Link></li>
                       <li><Link to="/checkout">Checkout</Link></li>
                       <li><Link to="/myaccount">My Account</Link></li>

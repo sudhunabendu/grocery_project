@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { FaGratipay, FaHeart, FaEye, FaSyncAlt } from "react-icons/fa";
+
+
 
 class Products extends Component {
   render() {
@@ -36,9 +39,9 @@ class Products extends Component {
                   <img src="assets/images/img-pro-01.jpg" className="img-fluid" alt="Image" />
                   <div className="mask-icon">
                     <ul>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><FaEye /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><FaSyncAlt /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><FaHeart /></a></li>
                     </ul>
                     <a className="cart" href="#">Add to Cart</a>
                   </div>
@@ -59,9 +62,9 @@ class Products extends Component {
                   <img src="assets/images/img-pro-02.jpg" className="img-fluid" alt="Image" />
                   <div className="mask-icon">
                     <ul>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><FaEye /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><FaSyncAlt /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><FaHeart /></a></li>
                     </ul>
                     <a className="cart" href="#">Add to Cart</a>
                   </div>
@@ -82,9 +85,9 @@ class Products extends Component {
                   <img src="assets/images/img-pro-03.jpg" className="img-fluid" alt="Image" />
                   <div className="mask-icon">
                     <ul>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><FaEye /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><FaSyncAlt /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><FaHeart /></a></li>
                     </ul>
                     <a className="cart" href="#">Add to Cart</a>
                   </div>
@@ -105,9 +108,9 @@ class Products extends Component {
                   <img src="assets/images/img-pro-04.jpg" className="img-fluid" alt="Image" />
                   <div className="mask-icon">
                     <ul>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
-                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><FaEye /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><FaSyncAlt /></a></li>
+                      <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><FaHeart /></a></li>
                     </ul>
                     <a className="cart" href="#">Add to Cart</a>
                   </div>
